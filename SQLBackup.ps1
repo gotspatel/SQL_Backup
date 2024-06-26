@@ -79,8 +79,6 @@ Param (
 	[string]$SelectType
 )
 
-Clear-Host
-
 If ($SelectType -notmatch '^[mM][sS][sS][qQ][lL]$|^[mM][yY][sS][qQ][lL]$')
 {
 	Write-Host "[ERROR] Failed to provide proper parameter." 
